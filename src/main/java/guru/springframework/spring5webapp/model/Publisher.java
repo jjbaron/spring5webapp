@@ -15,6 +15,9 @@ public class Publisher {
     private String name;
     private String address;
 
+    public Publisher() {
+    }
+
     public Long getId() {
         return id;
     }
